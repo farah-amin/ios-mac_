@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hero>img{
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+.hero{
+    width: 100%;
+   background-image: url(imges/background.jpeg);
+   background-size: cover;
+   height: 100vh;
+   background-position: center;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+ flex-direction: column;
+ display: flex;
+ font-size: 20px;
+ padding: 60px 20px;
+
+}
+.hero>h1{
+    margin-bottom: 20px;
+}
+.sec2>h2{
+    margin-bottom: 20px;
+}
+
+h1,h2,h3{
+    color: rgb(86, 83, 83);
+}
+p{
+    color: rgb(166, 170, 179);
+}
+.btn{ 
+    padding: 30px 0;
+    display: flex;
+    gap: 15px;
+       
+}
+.btn>button{
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+#b1{
+background-color: rgb(42, 204, 212);
+}
+#b2{
+    background-color: rgb(172, 110, 229);
+}
+.sec2{
+     text-align: center;
+   justify-content: center;
+   align-items: center;
+ flex-direction: column;  
+ padding: 15px;
+ margin-bottom: 30px;
+}
+.m1{
+    margin-bottom: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+.sec3{
+    display: flex;
+    gap: 15px;
+}
+.sec4{
+     text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+}
+.sec4>p{
+    margin-bottom: 30px;
+}
+.sup{
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px; 
+}
+.after_sup{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    margin-top: 60px;
+    padding: 35px;
+}
+.imgs{
+    display: flex;
+    width: 100%;
+     margin-top: 60px;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+.clipboard{
+     text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+   flex-direction: column; 
+}
+
+.btn2{ 
+    padding: 30px 0;
+    display: flex;
+    gap: 15px;
+      text-align: center;
+   justify-content: center;
+   align-items: center;
+       
+}
+.btn2>button{
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+ .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(212, 216, 219);
+    padding: 30px;
+    gap: 15px;
+}
+
+.cc img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(116, 126, 133);
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+}
